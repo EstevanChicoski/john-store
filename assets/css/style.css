@@ -45,7 +45,7 @@ header{
 }
 
 .inpt a:hover{
-    color: rgba(75, 74, 74, 0.507);
+    color: rgba(132, 0, 255, 0.74);
 }
 
 .main{
@@ -63,7 +63,7 @@ header{
 }
 
 .login{
-    width: 50%;
+    width: 45%;
     height: 88vh;
 }
 
@@ -71,8 +71,8 @@ header{
     background-color: rgba(4, 4, 7, 0.795);
     border: 0px;
     border-radius: 8px;
-    margin-top: 17%;
-    margin-left: 20%;
+    margin-top: 20%;
+    margin-left: 25%;
     width: 50%;
     height: 60%;
     padding-top: 20px;
@@ -169,7 +169,8 @@ header{
 .rds .sa a{
     font-size: 30pt;
     padding: 25px;
-    color: white;
+    color: rgba(255, 255, 255, 0.651);
+    transition: color .3s;
 }
 
 .dc{
@@ -179,9 +180,9 @@ header{
 }
 
 .dc h1{
-    font-size: 35pt;
+    font-size: 30pt;
     margin-top: 4vh;
-    color: white;
+    color: rgba(255, 255, 255, 0.651);
 }
 
 .loja{
@@ -195,3 +196,17 @@ input{
     border-bottom: 1px solid rgba(255, 255, 255, 0.568);
 }
 
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: rgb(30, 30, 41);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(105, 48, 143, 0.822);
+    border: 0px;
+    border-radius: 10px;
+}
+
+.sa a:hover{
+    color: rgba(105, 48, 143, 0.822);
+}
